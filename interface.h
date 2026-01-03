@@ -7,21 +7,21 @@
 
 void startProgram();
 
-/* Работа с памятью */
+//Работа с памятью
 int** allocateMatrix(int n, int m);
 void freeMatrix(int **a, int n);
 
-/* Ввод */
+//Ввод
 void inputManual(int **a, int n, int m);
 void inputFromFile(int **a, int *n, int *m);
 void inputRandom(int **a, int n, int m);
 void inputStatic(int **a, int *n, int *m);
 
-/* Вывод */
+//Вывод
 void printMatrix(int **a, int n, int m);
 void printMatrixToFile(int **a, int n, int m, FILE *f);
 
-/* Задания */
+//Задания
 void taskA(int **a, int n, int m);
 void taskB(int **a, int n, int m);
 void taskC(int **a, int n, int m);

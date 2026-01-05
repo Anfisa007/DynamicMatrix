@@ -125,7 +125,7 @@ void startProgram() {
     srand(time(NULL));
 
     do {
-        printf("\nЗадача №25\nЧигарева Анфиса Ильинична, ИТПИ-2515\n");
+        printf("\nЗадача №25\n, ИТПИ-####\n");
         printf("Выберите задание:\n");
         printf("1 - a\n2 - б\n3 - в\n4 - г\nEsc - выход\n");
 
